@@ -19,7 +19,7 @@ Source organization: `cliptown`
 |---|---:|---|
 | `cliptown/cliptown-flutter` | `e1c88fe94467db01859faf4ad88ca958045d3d74` | `main` |
 | `cliptown/cliptown-cli` | `b845408fe7e1b23cc617d39d0949362604a034e9` | `main` |
-| `cliptown/cliptown-clients` | `a325ea7ca9b926400d4189436a384a162810776e` | `main` |
+| `cliptown/cliptown-clients` | `5aab678c860ec748a243522883ba4f1a2bb32c66` | `main` |
 
 ## Dependency lanes
 
