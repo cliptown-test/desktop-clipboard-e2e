@@ -1,0 +1,11 @@
+name: Desktop matrix
+on: {workflow_dispatch: {}, schedule: [{cron: '47 6 * * 1,4'}]}
+permissions: {contents: read}
+jobs:
+  desktop:
+    strategy: {fail-fast: false, matrix: {os: [ubuntu-latest, macos-latest, windows-latest]}}
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - shell: bash
+        run: ./scripts/run-desktop-suite.sh
