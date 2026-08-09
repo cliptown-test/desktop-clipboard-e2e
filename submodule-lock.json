@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "upstream": "cliptown/cliptown-flutter",
+  "url": "https://github.com/cliptown/cliptown-flutter.git",
+  "path": "vendor/upstream/cliptown-flutter",
+  "commit": "e1c88fe94467db01859faf4ad88ca958045d3d74"
+}
